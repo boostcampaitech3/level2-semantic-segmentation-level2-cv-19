@@ -4,6 +4,13 @@ log_config = dict(
     hooks=[
         dict(type='TextLoggerHook', by_epoch=False),
         # dict(type='TensorboardLoggerHook')
+        dict(type='WandbLoggerHook', interval=1000,
+            init_kwargs=dict(
+                project='Semantic Segmentation',
+                entity='next_level',
+                name=''
+            ),
+        )
     ])
 # yapf:enable
 dist_params = dict(backend='nccl')
