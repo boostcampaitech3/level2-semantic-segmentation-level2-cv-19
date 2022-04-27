@@ -7,7 +7,7 @@ log_config = dict(
         dict(type='WandbLoggerHook', interval=1000,
             init_kwargs=dict(
                 project='Semantic Segmentation',
-                entity='next_level',
+                entity='hn04147',
                 name='deeplabv3_r50-d8'
             ),
         )
