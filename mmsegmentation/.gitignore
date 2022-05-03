@@ -109,6 +109,7 @@ wandb
 .vscode
 .idea
 utils
+result/
 
 # custom
 *.pkl
