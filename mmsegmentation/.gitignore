@@ -90,7 +90,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+uytils/
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -108,6 +108,7 @@ data
 wandb
 .vscode
 .idea
+utils
 
 # custom
 *.pkl
