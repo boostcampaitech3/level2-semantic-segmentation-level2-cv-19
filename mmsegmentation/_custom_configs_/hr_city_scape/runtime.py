@@ -8,7 +8,7 @@ log_config = dict(
             init_kwargs=dict(
                 project='Semantic Segmentation',
                 entity='next_level',
-                name='upernet_beit_large_Albu'))
+                name='hrnet_aug'))
     ])
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
